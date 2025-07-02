@@ -140,7 +140,7 @@ function setup()
 
 
     $replacementRequire = <<<PHP
-\$session_start();
+session_start();
 \$parent = \$_GET['parent'] ?? '/';
 \$1
 require_once '../../modules/Personal_folder/exclude_users.php';
